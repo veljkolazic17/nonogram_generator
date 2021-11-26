@@ -16,12 +16,12 @@ PS Users\veljk\nonogram_generator> cmd /c genon.exe "psc.png" 40 "done.png" 220
 ```
 ### **psc.png**
 ![](https://github.com/veljkolazic17/nonogram_generator/blob/main/testimage/psc.png)
-### **done.png**
+### **done1.png**
 ![](https://github.com/veljkolazic17/nonogram_generator/blob/main/testimage/done1.png)
 ```powershell
 PS Users\veljk\nonogram_generator> cmd /c genon.exe "pika.png" 20 "done2.png" 220
 ```
-### **psc.png**
+### **pika.png**
 ![](https://github.com/veljkolazic17/nonogram_generator/blob/main/testimage/pika.png)
-### **done.png**
+### **done2.png**
 ![](https://github.com/veljkolazic17/nonogram_generator/blob/main/testimage/done2.png)
