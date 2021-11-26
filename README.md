@@ -12,9 +12,16 @@ PS Users\veljk\nonogram_generator> cmd /c genon.exe PATH_IN SIZE PATH_OUT SENSIT
 * **SENSITIVITY** &rarr; should tweak(for smaller image with brighter colours you shoud put higher sensitivity)
 ## Example:
 ```powershell
-PS Users\veljk\nonogram_generator> cmd /c genon.exe "psc.png" "done.png" 220
+PS Users\veljk\nonogram_generator> cmd /c genon.exe "psc.png" 40 "done.png" 220
 ```
 ### **psc.png**
-![](/testimages/psc.png)
+![](https://github.com/veljkolazic17/nonogram_generator/blob/main/testimage/psc.png)
 ### **done.png**
-![](/testimages/done1.png)
+![](https://github.com/veljkolazic17/nonogram_generator/blob/main/testimage/done1.png)
+```powershell
+PS Users\veljk\nonogram_generator> cmd /c genon.exe "pika.png" 20 "done2.png" 220
+```
+### **psc.png**
+![](https://github.com/veljkolazic17/nonogram_generator/blob/main/testimage/pika.png)
+### **done.png**
+![](https://github.com/veljkolazic17/nonogram_generator/blob/main/testimage/done2.png)
