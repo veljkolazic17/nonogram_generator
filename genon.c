@@ -32,7 +32,7 @@ uint8_t get_batch_bin(int m,int batch_size,uint8_t* image,int x,int y,int sensit
     G_sum/=del;
     B_sum/=del;
     int avg = (R_sum+G_sum+B_sum)/3;
-    if(avg > 200) return true;
+    if(avg > sensitivity) return true;
     return false;
 }
 
